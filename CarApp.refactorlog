@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="71b0be19-1e6b-45a0-8091-0fb44385408e" ChangeDateTime="11/23/2022 08:18:15">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="028c2474-8f73-41b6-94fe-cc601450958d" ChangeDateTime="11/23/2022 08:28:51">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[IMagasda]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_Price" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="02cca728-fc2e-41c6-af87-bd62fddd1e67" ChangeDateTime="11/23/2022 08:30:20">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[_PriceStat]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_Location" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="53ab8ca5-98ce-4c53-87ae-34e56198dfc3" ChangeDateTime="11/23/2022 08:31:11">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[_]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_PriceStat" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d988a39b-33da-448d-89c1-a31062ca6bf5" ChangeDateTime="11/23/2022 08:34:20">
+    <Property Name="ElementName" Value="[dbo].[UserAccount].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserAccount]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e566cccc-6855-4462-8be5-35425e457f60" ChangeDateTime="11/23/2022 08:38:56">
+    <Property Name="ElementName" Value="[dbo].[WatchList].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c0894946-8644-4926-8acf-bf2378827a77" ChangeDateTime="11/23/2022 09:05:27">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[_FrontImage]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_Image1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1fa21a4b-978a-40bc-b3cc-b9bb992edb9f" ChangeDateTime="11/23/2022 09:05:32">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[_2ndImage]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_Image2" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e7ac73bd-dd2b-4381-8b7c-3d680e3c953b" ChangeDateTime="11/23/2022 09:05:36">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[_3rdImage]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_Image3" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fa1d1a45-ba9c-491f-b169-fe6dcf7ac263" ChangeDateTime="11/23/2022 09:05:40">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[_Image]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_Image4" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="553ecebe-5f99-4802-a9fa-8359073dc89d" ChangeDateTime="11/23/2022 09:16:23">
+    <Property Name="ElementName" Value="[dbo].[WatchList].[_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_WatchlistID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="94c8336f-a4ef-45cb-910e-bef936eaa9fc" ChangeDateTime="11/23/2022 09:16:52">
+    <Property Name="ElementName" Value="[dbo].[WatchList].[_list]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_WatchlistName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1ca69224-5b16-459e-8b7d-2ff7ded49267" ChangeDateTime="11/23/2022 09:17:39">
+    <Property Name="ElementName" Value="[dbo].[WatchList].[_Vehicle]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_VehicleID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c013794d-60a8-4247-86d6-a64b6ae25c6b" ChangeDateTime="11/23/2022 20:46:38">
+    <Property Name="ElementName" Value="[dbo].[WatchListContent].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchListContent]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_WatchListID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="39573fe5-207b-44f3-af00-2dfb71c065d1" ChangeDateTime="11/23/2022 20:50:58">
+    <Property Name="ElementName" Value="[dbo].[WatchListContent].[_ListingID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchListContent]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_VehicleListingID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1431be1f-4768-47c4-b2f6-7a7d31600480" ChangeDateTime="11/26/2022 00:01:48">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e166f9e7-f0f6-4fc9-8b71-3fe6c649b766" ChangeDateTime="11/26/2022 00:02:18">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[_Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f50084b3-e507-40f8-ab37-f330c5ffcbb5" ChangeDateTime="11/26/2022 01:16:41">
+    <Property Name="ElementName" Value="[dbo].[WatchListContent].[_VehicleListingID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchListContent]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VehicleListingID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="170e1749-1061-41de-a256-bf68dc2e18af" ChangeDateTime="11/26/2022 01:16:49">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b6c83e53-0580-46ae-b1e4-eaea49f95e5f" ChangeDateTime="11/26/2022 01:17:02">
+    <Property Name="ElementName" Value="[dbo].[WatchListContent].[VehicleListingID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchListContent]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VehicleListingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b3b36ea4-ae7a-4fb9-9255-c8c2239b3ca5" ChangeDateTime="11/26/2022 01:17:33">
+    <Property Name="ElementName" Value="[dbo].[WatchListContent].[VehicleListingId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchListContent]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_VehicleListingID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2f539093-0e2b-4600-853e-09836bfe87cf" ChangeDateTime="11/26/2022 01:17:52">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9be7a000-793f-4b66-bc00-e7eff32a4800" ChangeDateTime="11/27/2022 06:36:08">
+    <Property Name="ElementName" Value="[dbo].[VehicleLiting].[_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleLiting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0ed79ea7-cec6-45d9-9be4-1d662da90741" ChangeDateTime="11/27/2022 06:49:47">
+    <Property Name="ElementName" Value="[dbo].[WatchList].[_ListingURL]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_Model" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ae9760cc-e730-4372-8778-ca505c48f4f9" ChangeDateTime="11/27/2022 06:50:07">
+    <Property Name="ElementName" Value="[dbo].[WatchList].[_ListingMainPhoto]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_Make" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="98ce4638-8074-47fa-92b1-827c37dc490b" ChangeDateTime="11/27/2022 08:34:21">
+    <Property Name="ElementName" Value="[dbo].[VehicleListing].[ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleListing]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0c1a3464-112d-4b7f-9b4a-3f7af65dc0a1" ChangeDateTime="11/27/2022 22:51:25">
+    <Property Name="ElementName" Value="[dbo].[VehicleListing].[_Location]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[VehicleListing]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_City" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="477f0093-7d86-48f3-952c-355e38c7df73" ChangeDateTime="11/27/2022 22:51:48">
+    <Property Name="ElementName" Value="[dbo].[WatchList].[_Location]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WatchList]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_City" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="34afd534-1e24-45cc-98a8-b876ac03ad5e" ChangeDateTime="11/28/2022 01:48:02">
+    <Property Name="ElementName" Value="[dbo].[PartListing].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PartListing]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3551c443-edb4-4950-b581-59e8416f0f7f" ChangeDateTime="11/28/2022 01:48:13">
+    <Property Name="ElementName" Value="[dbo].[PartListing].[ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PartListing]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="_ID" />
+  </Operation>
+</Operations>
